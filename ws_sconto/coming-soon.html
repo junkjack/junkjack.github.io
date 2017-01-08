@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--[if IE 9]><html class="ie9"><![endif]-->
+<!--[if !IE]><!--><html><!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Sconto - Premium eCommerce Template</title>
+        <meta name="description" content="Premium eCommerce Template">
+
+        <!--[if IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <![endif]-->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/images/favicons/favicon.png">
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicons/faviconx57.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicons/faviconx72.png">
+
+        <link href='http://fonts.googleapis.com/css?family=Hind:400,700,600,500,300%7CFira+Sans:400,700italic,500italic,400italic,300italic,700,500,300' rel='stylesheet' type='text/css'>
+
+        <!-- Fira Sans Fix - Google Fira Sans sometimes fails to load -->
+        <link href='http://code.cdn.mozilla.net/fonts/fira.css' rel='stylesheet'>
+
+        <link rel="stylesheet" href="assets/css/plugins.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+
+    </head>
+    <body class="coming-soon">
+            <div class="main">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-sm-6 col-sm-offset-6">
+                            <div class="soon-content">
+                                <h1>COMING SOON</h1>
+                                <p>Unfortunately, we’re not quite ready yet. But, you can see our progres above.</p>
+                                <div class="coming-countdown"></div><!-- End .coming-countdown -->
+                            </div><!-- End .soon-content -->
+                        </div><!-- End .col-sm-6 -->
+                    </div><!-- End .row -->
+                </div><!-- End .container-fluid -->
+            </div><!-- End .main -->
+
+        <!-- End -->
+        <script src="assets/js/plugins.min.js"></script>
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            $(function() {
+            "use strict";
+                if ($.fn.countdown) {
+                    $('.coming-countdown').countdown({
+                        until: new Date(2016, 8, 14), // 7th month = August / Months 0 - 11 (January  - December)
+                        format: 'DHMS',
+                        padZeroes: true
+                    });
+
+                    // Pause
+                    // $('.coming-countdown').countdown('pause');
+                }
+            });
+        </script>
+    </body>
+</html>

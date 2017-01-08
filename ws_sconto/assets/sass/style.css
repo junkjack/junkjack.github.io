@@ -1,0 +1,55 @@
+/*
+Error: Base-level rules cannot contain the parent-selector-referencing character '&'.
+        on line 246 of E:/Documents/GitHub/junkjack.github.io/sconto/assets/sass/elements/_social-icons.scss
+        from line 71 of E:/Documents/GitHub/junkjack.github.io/sconto/assets/sass/style.scss
+
+Backtrace:
+E:/Documents/GitHub/junkjack.github.io/sconto/assets/sass/elements/_social-icons.scss:246
+E:/Documents/GitHub/junkjack.github.io/sconto/assets/sass/style.scss:71
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/selector/comma_sequence.rb:29:in `resolve_parent_refs'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:426:in `visit_rule'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `block (2 levels) in visit_import'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `map'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:326:in `block in visit_import'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `block in with_import'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:88:in `with_import'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `block in with_base'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:115:in `with_frame'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/stack.rb:79:in `with_base'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:158:in `visit'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `map'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/base.rb:36:in `visit'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:157:in `visit'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/visitors/perform.rb:8:in `visit'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:36:in `css_tree'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/tree/root_node.rb:20:in `render'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/engine.rb:278:in `render'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:420:in `run'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/sass_scss.rb:63:in `process_result'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:52:in `parse'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/lib/sass/exec/base.rb:19:in `parse!'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/lib/ruby/gems/2.2.0/gems/sass-3.4.20/bin/sass:13:in `<top (required)>'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `load'
+D:/My Program/Adobe/Adobe Dreamweaver CC 2017/ruby/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Base-level rules cannot contain the parent-selector-referencing character '&'.\A         on line 246 of E:/Documents/GitHub/junkjack.github.io/sconto/assets/sass/elements/_social-icons.scss\A         from line 71 of E:/Documents/GitHub/junkjack.github.io/sconto/assets/sass/style.scss"; }
