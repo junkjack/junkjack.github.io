@@ -1122,7 +1122,8 @@
 	}
 }		
 .home-text-middle{
-	font-family: 'Poiret One', cursive;
+/*	-- , 'Poiret One', cursive -- */
+	font-family: 	'OpenSans-Light-webfont';
 	text-transform: uppercase;
 	font-size: 120px;
 	line-height:120px;
