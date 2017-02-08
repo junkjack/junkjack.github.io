@@ -3005,12 +3005,12 @@ section {
     float: right
 }
 
-.menu-sticky {
+.menu-sticky { /*  this affect the narbar */
     height: 55px !important; /* 75px ori */
     position: fixed !important;
     left: 0px;
     right: 0px;
-    top: 0;
+    top: 0px;
 }
 
 .menu-sticky .inner-nav>ul>li>a {
@@ -3019,7 +3019,9 @@ section {
 
 .menu-sticky .brand-logo img,
 .menu-sticky .navbar-toggle {
-    height: 55px !important /* 75px ori */
+	/* margin-left: -23px; /* new test */
+	margin-top: 5px;/* new test */
+    height: 45px !important /* 75px ori */
 }
 
 .navbar-toggle {
@@ -4103,7 +4105,7 @@ h5.hero-heading-alt {
 }
 
 .fw-slider .carousel-inner {
-    height: 600px
+    height: 380px /* 600px */
 }
 
 .carousel-control.left,
