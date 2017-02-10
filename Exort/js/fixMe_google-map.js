@@ -40,7 +40,7 @@
            	map: map,
 			// Marker Images
         	// icon: 'http://xxxmlmeniaga.com/website/html/exort/images/logo/logo.png',
-        	icon: 'images/MultiReward LOGO-ICON3+TEXTcolor++.svg',
+        	icon: 'images/MultiReward LOGO-ICON4+.svg',
            	title: data.title
            	});
 			(function (marker, data) {
