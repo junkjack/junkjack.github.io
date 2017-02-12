@@ -1,6 +1,7 @@
 /*------------------------
 addMe_style.css 
 
+
 1.3
 add Fluid Width Equal Height Columns 
 2/6/2017 2:33:08 PM
@@ -15,6 +16,43 @@ add Fluid Width Equal Height Columns
 1/23/2017 1:24:07 PM
 
 ------------------------*/
+
+
+/* main.css !360 */
+.heading { 
+    text-align: center; 
+    color: #f21; 
+    /* text-shadow: 2px 2px 1px #111; */
+}
+/* .heading h2 {
+color: #f00;
+} /* */
+
+/* fixMe_main.css !930 */
+.mrg-vertical-30 { 
+    margin-top: 30px !important;
+    margin-bottom: 30px !important;
+    height: inherit
+}
+
+/* fixMe_main.css !3019 */
+.menu-sticky .brand-logo img, 
+.menu-sticky .navbar-toggle {
+	/* margin-left: -23px; /* new test */
+	margin-top: 5px;/* new test */
+  height: 45px !important /* 75px ori */
+}
+
+/* fixMe_main.css !3085 */ 
+.main-nav.menu-light .inner-nav > ul > li > a:hover,
+.main-nav.menu-light .inner-nav > ul > li > a:focus,
+.main-nav.menu-light .navbar-toggle i:hover,
+.main-nav.top-nav.menu-light .inner-nav > ul > li.active > a {
+    color: #F00; /* fix op-nav to meme this highlight selected menu */
+    text-shadow: 2px 2px 1px #CCC;
+    /* font-weight: bold  /* */
+}
+
 
 /* 1.3 */
 

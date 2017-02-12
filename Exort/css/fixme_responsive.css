@@ -282,7 +282,7 @@
 	
     /* Top Bar */
     .top-nav {
-        display: none
+        /* display: none /* fix */
     }
     /* Float Menu */
     .main-nav.has-top-nav,

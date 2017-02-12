@@ -60,8 +60,8 @@ jQuery(function($) {
 
     //OnePage Menu tracking 
     $('body').scrollspy({
-        target: ".op-nav .custom-collapse"
-    })
+        target: ".top-nav .custom-collapse"
+    })          /* op-nav to top-nav fix */
 
     //Mobile sub menu
     $(".submenu").click(function(event) {
