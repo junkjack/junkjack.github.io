@@ -87,10 +87,10 @@
 	 24.4 Comment
 25. Shop
    25.1 Product
-	 25.1 Price Range
+	 25.2 Price Range
 	 25.3 Cart
 	 25.4 Checkout	
-	 25.5 Prodcut Gallery	
+	 25.5 Prodcut Gallery
 	 25.6 Prodcut Details	 
 26. Contact
 27. Map
@@ -5370,26 +5370,26 @@ button {
 .btn-style-2 {
     border: 1px solid #f54; /* 212121 */
     color: #fff !important;
-    background-color: #f54 /* 212121 */ 
+    background-color: #f87 /* 212121 */ 
 }
 
 .btn-style-2:hover {
-    border: 1px solid #f54; /* 212121 */ 
-    color: #f32 !important; /* 212121 */
-    background-color: #fcc !important  /* transparent */
-}
+    border: 1px solid #000; /* 212121 */ 
+    color: #fff !important; /* 212121 */
+    background-color: #f54 !important;  /* transparent */
+text-shadow: 2px 2px 1px #000;  }
 
 .btn-style-3 {
     border: 1px solid #f54; /* fdfdfd */ 
     color: #fff !important;  /* fcfcfc */ 
-    background-color: #f54 /* transparent !important */
+    background-color: #f87; /* transparent !important */
 }
 
 .btn-style-3:hover {
-    border: 1px solid #f54; /* F8F8F8 */
-    color: #f22 !important; /* 3e3e3e */
-    background-color: #f98 !important /* F8F8F8 */
-}
+    border: 1px solid #000; /* F8F8F8 */
+    color: #fff !important; /* 3e3e3e */
+    background-color: #f54 !important;/* F8F8F8 */
+		text-shadow: 2px 2px 1px #000;  }
 
 .btn-style-4 {
     border: 1px solid #212121;
@@ -7744,7 +7744,7 @@ button {
 .banner-categories {
     position: relative;
     display: block;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .banner-categories .overlay {
@@ -7833,15 +7833,16 @@ button {
     top: 0;
     visibility: visible;
     background-color: rgba(255, 255, 255, 0.5);
-    opacity: 0;
+    opacity: 0.5; /* half transparent */
     transition: all ease-in-out 0.4s;
     -webkit-transition: all ease-in-out 0.4s;
+    font-size: 10px;
 }
 
 .shop-product .overlay .overlay-content .content-inner {
-    position: absolute;
-    bottom: -6px;
-    right: 0
+    position: absolute; /* */
+    bottom: 0px; /* bottom: -6px; */
+    left: 5px; /* right: 0; */ 
 }
 
 .shop-product .overlay .overlay-content .content-inner a {
@@ -8207,7 +8208,7 @@ button {
 
 
 /*===============================
- =====  25.5 Product Gallery ====
+ =====  25.5 Prodcut Gallery ====
 *===============================*/
 
 #shop-slider {
@@ -8292,7 +8293,7 @@ button {
 
 
 /*===============================
- ===  25.6 Product Details  ====
+ ===  25.6 Prodcut Details  ====
 *===============================*/
 
 .color-swatch ul li a {

@@ -400,8 +400,7 @@
         margin-bottom: 30px
     }
 }
-/* end md Laptop Screen */
-
+/* end sm Laptop Screen */
 
 /*start sm Tablet Screen*/
 
@@ -713,7 +712,7 @@
     .portfolio.col-4 .folio-item,
     .portfolio.col-5 .folio-item,
     .portfolio.col-6 .folio-item {
-        width: 100%;
+        width: 50%; /* made to show more in small device */
     }
     /* ShowCase */
     .showcase .section {
