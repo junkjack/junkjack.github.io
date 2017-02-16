@@ -1,6 +1,12 @@
 /*------------------------
 addMe_style.css 
 
+1.7 tab-Style-5
+
+1.6 main page height
+
+1.5 disable text selection
+
 1.4
 add login style
 
@@ -18,6 +24,65 @@ add Fluid Width Equal Height Columns
 1/23/2017 1:24:07 PM
 
 ------------------------*/
+
+
+/* text input */
+input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
+    background-color: rgb(255, 245, 240);
+    background-image: none;
+    color: rgb(0, 0, 0);
+}
+
+
+
+
+/* nav bar hack */
+
+.main-nav.menu-light {
+    background-color: rgba(255, 245, 240, 0.9); /* fff-ori / menu float color transparent*/ 
+    border-bottom: 1px solid #e9e9e9
+}
+
+
+/* 1.7 tab-Style-5 */
+
+.custom-tabs.tab-style-5 {
+	text-align: center;
+}
+
+.custom-tabs.tab-style-5 li a {
+    border: 1px solid #f54; /* e9e9e9 */
+    color: #fff; /* 777 */
+    margin-right: 5px; /* 15px */
+    background-color: #f98;
+}
+
+.custom-tabs.tab-style-5 li.active a,
+.custom-tabs.tab-style-5 li a:hover {
+    border: 1px solid #000; /* 212121 */
+    color: #fff;
+    background-color: #f54 ; /* color: #212121 */
+		text-shadow: 1px 1px 1px #000;
+}
+
+
+/* 1.6 overright main page dymanic height "100vh" eg width "100vw" */
+
+.fw-slider .carousel-inner {
+    height: 100vh /* 600px */ 
+}
+
+
+/* 1.5 disable text selection on a web page */
+body,html{
+	overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
 
 /* start lg Desktop Screen */
 @media (min-width: 1200px) {
@@ -256,11 +321,11 @@ add Fluid Width Equal Height Columns
     position: relative;
     transition: all 0.3s ease-in-out;
     -webkit-transition: all 0.3s ease-in-out;
-    font-size: 12px;
+    font-size: 10px; /* 12px */
     letter-spacing: 2px;
-    margin-right: 1px;
-    margin-bottom: 1px;
-    padding: 15px 35px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 10px 25px;
 /* text-shadow: 1px 1px 1px #fff; */
     border: 1px solid #f54; /* fdfdfd */ 
     color: #fff !important;  /* fcfcfc */ 
