@@ -146,13 +146,33 @@ jQuery(function($) {
     });
 
     $('.lightbox-video').magnificPopup({
-        disableOn: 700,
+        disableOn: 0, /* 700 disable when screen smaller than */
         type: 'iframe',
         mainClass: 'mfp-fade',
         removalDelay: 160,
         preloader: false,
         fixedContentPos: false
     });
+    
+    $('.lightbox-login').magnificPopup({
+        disableOn: 0, /* 700 disable when screen smaller than */
+        type: 'inline', 
+        midClick: true,/* must have this if not will popup self */
+        mainClass: 'mfp-fade', 
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+    
+    $('.popup-with-form').magnificPopup({
+        disableOn: 0, /* 700 disable when screen smaller than */
+        type: 'iframe',
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+    });
+    
 
     // WOW Animation
     var wow = new WOW({
