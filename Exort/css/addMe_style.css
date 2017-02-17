@@ -1,6 +1,10 @@
 /*------------------------
 addMe_style.css 
 
+1.9 social icon color
+
+1.8 footer bottom fix
+
 1.7 tab-Style-5
 
 1.6 main page height
@@ -26,7 +30,236 @@ add Fluid Width Equal Height Columns
 ------------------------*/
 
 
-/* text input */
+/* test mfp */
+.white-popup-block {
+	background:#FFF;
+	padding:20px 30px;
+	text-align:left;
+	max-width:650px;
+	margin:40px auto;
+	position:relative
+	}
+
+
+/* 1.12 new owl style */ 
+/* change from owl-nav-3 owl-nav-4 */
+
+.owl-nav-5 .owl-buttons .prev,
+.owl-nav-5 .owl-buttons .next,
+.owl-nav-6 .owl-buttons .prev,
+.owl-nav-6 .owl-buttons .next {
+    position: absolute;
+    top: 30%;
+    font-size: 14px;
+    padding: 15px;
+    border: 1px solid #000; /* 3e3e3e */
+    color: #000 ; /* 3e3e3e */
+    opacity: 0.3; 
+    /* visibility: hidden; */
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    /* height: 50px; */
+    /* background-color: rgba(255, 143, 128, 0.8); */
+    background-color: #f98;
+}
+
+.owl-nav-6 .owl-buttons .prev,
+.owl-nav-6 .owl-buttons .next {
+    border: 1px solid #ececec;
+    color: #ececec;
+    background-color: rgba(255, 80, 60, 0.5);
+}
+
+.owl-nav-5:hover .owl-buttons .prev,
+.owl-nav-5:hover .owl-buttons .next,
+.owl-nav-6:hover .owl-buttons .prev,
+.owl-nav-6:hover .owl-buttons .next {
+    opacity: 0.5;
+    visibility: visible;
+}
+
+.owl-nav-5 .owl-buttons .prev:hover,
+.owl-nav-5 .owl-buttons .next:hover,
+.owl-nav-6 .owl-buttons .prev:hover,
+.owl-nav-6 .owl-buttons .next:hover {
+    opacity: 1
+}
+
+.owl-nav-5 .owl-buttons .prev,
+.owl-nav-6 .owl-buttons .prev {
+    left: -70px
+}
+
+.owl-nav-5.nav-overlay .owl-buttons .prev,
+.owl-nav-6.nav-overlay .owl-buttons .prev {
+    left: 10px
+}
+
+.owl-nav-5 .owl-buttons .next,
+.owl-nav-6 .owl-buttons .next {
+    right: -70px
+}
+
+.owl-nav-5.nav-overlay .owl-buttons .next,
+.owl-nav-6.nav-overlay .owl-buttons .next {
+    right: 10px
+}
+
+.owl-nav-arrow .owl-buttons .ti-angle-left:before {
+    content: "\e629";
+}
+
+.owl-nav-arrow .owl-buttons .ti-angle-right:before {
+    content: "\e628";
+}
+
+
+/* 1.11 accordian color */
+.accordion-red .panel-heading a.collapsed {
+    color: #fff;
+    background-color: #f98;
+    border: 1px solid #f54;
+}
+
+.accordion-red .panel-heading a:hover,
+.accordion-red .panel-heading a {
+    background-color: #f54;
+    color: #ececec;
+		text-shadow: 1px 1px 1px #000;
+		border: 1px solid #000;
+}
+
+
+/* 1.10 quick fix newsletter widget */
+
+footer .newsletter-widget button[type="submit"] {
+	color: #999;
+}
+
+
+/* \1.9 social icon color */ 
+
+
+.team .item .team-member-links a.facebook:hover,
+.member-social.dark a.facebook:hover,
+header .social li.facebook:hover,
+footer .social li.facebook:hover { background: #4C66A4 }
+
+.team .item .team-member-links a.dribbble:hover,
+.member-social.dark a.dribbble:hover,
+header .social li.dribbble:hover,
+footer .social li.dribbble:hover { background: #EA4C89 }
+
+.team .item .team-member-links a.twitter:hover,
+.member-social.dark a.twitter:hover,
+header .social li.twitter:hover,
+footer .social li.twitter:hover { background: #2C77BA }
+
+.team .item .team-member-links a.gplus:hover,
+.member-social.dark a.gplus:hover,
+header .social li.gplus:hover,
+footer .social li.gplus:hover { background: #9e0b0f }
+
+.team .item .team-member-links a.linkedin:hover,
+.member-social.dark a.linkedin:hover,
+header .social li.linkedin:hover,
+footer .social li.linkedin:hover { background: #069 }
+
+.team .item .team-member-links a.pinterest:hover,
+.member-social.dark a.pinterest:hover,
+header .social li.pinterest:hover,
+footer .social li.pinterest:hover { background: #C92228 }
+
+header .social li.rss:hover,
+footer .social li.rss:hover { background: #f60 }
+
+/* /1.9 social icon color */ 
+
+/* \1.8 footer bottom fix */ 
+
+.footer-bottom2 {
+	background-color: #323232;
+	text-transform: uppercase;
+	
+    overflow: hidden;
+}
+
+.copyright {
+    color: #777;
+    /* margin: auto; */
+    /* argin-top: 15px; */
+	font-family: "Montserrat";
+	font-size: 11px;
+	/* letter-spacing: 0.3px; /* */
+}
+
+.social-icons-footer-bottom2 {
+    float: right;
+    margin: 0px 0 0 0;
+    overflow: hidden;
+}
+
+#footer ul,
+#footer li {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+footer .social li:first-child { border-left: 1px solid #414f5a }
+
+
+
+header .social,
+footer .social {
+    margin-right: 4px;
+    line-height: 30px;
+    padding-left: 0;
+}
+
+header #search-form { line-height: 30px }
+
+footer .social li:last-child,
+footer .social { margin-right: 0 !important }
+
+header .social li:first-child { border-left: 1px solid #ddd }
+
+header .social li,
+footer .social li {
+    border-right: 1px solid #414f5a;
+    display: table-cell;
+    vertical-align: middle;
+    height: 40px;
+    margin-right: 5px;
+    width: 40px;
+    text-align: center;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    -o-transition: background .5s ease-in-out;
+    -ms-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+    padding: 1px;
+}
+
+header .social i,
+footer .social i {
+    color: #555;
+    font-size: 16px; /* con size */
+    -webkit-transition: color .5s ease-in-out;
+    -moz-transition: color .5s ease-in-out;
+    -o-transition: color .5s ease-in-out;
+    -ms-transition: color .5s ease-in-out;
+    transition: color .5s ease-in-out;
+}
+
+header .social li:hover a i,
+footer .social li:hover a i { color: #fff }
+
+
+/* /1.8 footer bottom fix  */
+
+
+/* test text input */
 input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
     background-color: rgb(255, 245, 240);
     background-image: none;
@@ -36,7 +269,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 
 
 
-/* nav bar hack */
+/* test nav bar hack */
 
 .main-nav.menu-light {
     background-color: rgba(255, 245, 240, 0.9); /* fff-ori / menu float color transparent*/ 
@@ -44,7 +277,7 @@ input:-webkit-autofill, textarea:-webkit-autofill, select:-webkit-autofill {
 }
 
 
-/* 1.7 tab-Style-5 */
+/* \1.7 tab-Style-5 */
 
 .custom-tabs.tab-style-5 {
 	text-align: center;
@@ -126,6 +359,27 @@ body,html{
 .col-sm-6 .fw-slider .carousel-inner {
 	height: 300px;
 }
+.social-icons-footer-bottom2 {
+    display: inline-block;
+    float: none;
+    overflow: hidden;
+}
+.footer-bottom2 {
+    text-align: center;
+    padding: 10px 0 10px 0; /* space between text/icon */
+    
+    overflow: hidden;
+}
+header .social li,
+footer .social li {
+    display: inline-block;
+    border: none !important;
+    margin-right: 0;
+ }
+header .social i,
+footer .social i { 
+	line-height: 40px 
+	}
 }
 /* end xs Mobile Screen (Large) */
 /* start xs Mobile Screen (small) */

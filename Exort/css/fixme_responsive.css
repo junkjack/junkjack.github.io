@@ -217,7 +217,7 @@
         color: #ececec;
     }
     #search #close {
-        right: 40%;
+        right: 45%;
         width: auto;
         height: auto;
         bottom: 30px;
@@ -225,15 +225,17 @@
         -moz-border-radius: 50%;
         -webkit-border-radius: 50%;
         border-radius: 50%;
-        border: 1px solid #bbb;
+        border: 2px solid #bbb;
         font-size: 20px;
         line-height: 22px;
-        color: #bbb;
-        padding: 15px
+        /* color: #bbb; /* let main.css handle color */
+        padding: 15px;
+        border-color: #f54; /* ececec */
     }
     #search #close:hover {
-        color: #ececec;
-        border-color: #ececec
+        color: #fff; /* ececec */
+        border-color: #f21; /* ececec */
+        background-color: #f43;
     }
     .cart-dropdown-menu.dropdown-menu {
         position: absolute;
