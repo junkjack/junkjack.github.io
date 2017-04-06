@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://pageant.com/index.html</loc>
+    <lastmod>2017-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://pageant.com/images/kuala-lumpur-skyline-black-silhouette.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/pageant-gold.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/new-orleans-skyline-black-silhouette.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/miami-skyline-black-silhouette.svg</image:loc>
+    </image:image>
+  </url>
+  <url>
+    <loc>http://pageant.com/home.html</loc>
+    <lastmod>2017-04-06</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>http://pageant.com/images/kuala-lumpur-skyline-black-silhouette.svg</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/model.svg</image:loc>
+    </image:image>
+  </url>
+</urlset>
