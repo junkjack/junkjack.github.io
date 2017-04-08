@@ -1,53 +1,40 @@
-<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="pageant.com" resolutions="1x" timestamp="1491436546010">
+<manifest alg="2" build="2017.0.2.363" opt="true" iceEnabled="true" iceMarkupVersion="2" iceEnabledOptions="link,responsive,cachebuster,textStyling" exportTarget="other" domain="pageant.com" resolutions="1x" timestamp="1491647262038">
   <folder name="css">
-    <file name="site_global.css" crc="443350757"/>
-    <file name="master_frame_master.css" crc="225907368" ref="home"/>
-    <file name="nomq_preview_master_frame_master.css" crc="357589102" ref="home"/>
-    <file name="index.css" crc="174617100" ref="index"/>
-    <file name="home.css" crc="4023149081" ref="home"/>
-    <file name="nomq_home.css" crc="171238115" ref="home"/>
-  </folder>
-  <folder name="assets">
-    <folder name="bg">
-      <folder name="images">
-        <file name="cfecc05f9018735e7a4dfd13b3e24bb8.jpg" crc="116358622" mt="1491367986000"/>
-      </folder>
-      <file name="bg.js" crc="4010946230" mt="1491367986000"/>
-      <file name="bg.html" crc="4190273054" mt="1491367986000"/>
-    </folder>
+    <file name="site_global.css" crc="373150792"/>
+    <file name="master_frame_master.css" crc="274347978" ref="home"/>
+    <file name="index.css" crc="400904996" ref="index"/>
+    <file name="home.css" crc="3865101375" ref="home"/>
   </folder>
   <folder name="scripts">
-    <file name="jquery-1.8.3.min.js" crc="209076791" ref="home:index"/>
-    <file name="museutils.js" crc="4232573551" ref="home:index"/>
-    <file name="whatinput.js" crc="86476730" ref="home:index"/>
-    <file name="museconfig.js" crc="4152223963" ref="home:index"/>
+    <file name="jquery-1.8.3.min.js" crc="209076791" ref="index:home"/>
+    <file name="museutils.js" crc="4232573551" ref="index:home"/>
+    <file name="whatinput.js" crc="86476730" ref="index:home"/>
+    <file name="museconfig.js" crc="4152223963" ref="index:home"/>
     <file name="jquery.musemenu.js" crc="38860304" ref="home"/>
-    <file name="jquery.watch.js" crc="3844535323" ref="home:index"/>
-    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="home:index"/>
-    <file name="jquery.scrolleffects.js" crc="146279342" ref="home:index"/>
+    <file name="jquery.watch.js" crc="3844535323" ref="index:home"/>
+    <file name="jquery.musepolyfill.bgsize.js" crc="3880853905" ref="index:home"/>
+    <file name="jquery.scrolleffects.js" crc="146279342" ref="index:home"/>
     <file name="html5shiv.js" crc="4241844378" ref="home"/>
-    <file name="jquery.museresponsive.js" crc="433634197" ref="home"/>
-    <file name="require.js" crc="4234670167" ref="home:index"/>
+    <file name="require.js" crc="4234670167" ref="index:home"/>
+    <file name="webpro.js" crc="3770351119" ref="home"/>
+    <file name="musewpslideshow.js" crc="4244742588" ref="home"/>
+    <file name="jquery.museoverlay.js" crc="432750910" ref="home"/>
+    <file name="touchswipe.js" crc="3912873526" ref="home"/>
+    <file name="form_check.php" crc="3841221102" ref="home"/>
+    <file name="form_throttle.php" crc="4048049783" ref="home"/>
+    <file name="form_process.php" crc="3899230280" ref="home"/>
+    <file name="form-u33879.php" crc="393954208" ref="home"/>
   </folder>
   <folder name="images">
-    <file name="kuala-lumpur-skyline-black-silhouette.svg" crc="345884527" seo="true" ref="home:index">
+    <file name="kuala-lumpur-skyline-black-silhouette.svg" crc="345884527" seo="true" ref="index">
       <caption webpage="index" alt=""/>
       <caption webpage="home" alt=""/>
       <caption webpage="home" alt=""/>
+      <caption webpage="desktop" alt=""/>
+      <caption webpage="desktop" alt=""/>
     </file>
-    <file name="kuala-lumpur-skyline-black-silhouette_poster_.png" crc="141495950" ref="home:index"/>
-    <file name="bgimg black and white blur.jpg" crc="472236153" ref="home">
-      <caption webpage="home" alt=""/>
-    </file>
-    <file name="model.svg" crc="3929207696" seo="true" ref="home">
-      <caption webpage="home" alt=""/>
-      <caption webpage="home" alt=""/>
-    </file>
-    <file name="model_poster_u3839.png" crc="434397994" ref="home"/>
-    <file name="bgimg black and white-u2335-fr.png" crc="4120881324" ref="home"/>
-    <file name="model_poster_.png" crc="63835161" ref="home"/>
-    <file name="bgimg black and white blur-u616-fr.jpg" crc="116871788" ref="home"/>
-    <file name="blank.gif" crc="4208392903" ref="home:index"/>
+    <file name="kuala-lumpur-skyline-black-silhouette_poster_.png" crc="141495950" ref="index"/>
+    <file name="blank.gif" crc="4208392903" ref="index:home"/>
     <file name="bg_sunset_big.jpg" crc="371274409" ref="index">
       <caption webpage="index" alt=""/>
     </file>
@@ -86,10 +73,11 @@
       <caption webpage="index" alt=""/>
       <caption webpage="index" alt=""/>
     </file>
-    <file name="pageant-gold.svg" crc="43611253" seo="true" ref="index">
+    <file name="pageant-gold.svg" crc="43611253" seo="true" ref="index:home">
       <caption webpage="index" alt=""/>
+      <caption webpage="home" alt=""/>
     </file>
-    <file name="pageant gold_poster_.png" crc="4044295741" ref="index"/>
+    <file name="pageant gold_poster_.png" crc="4044295741" ref="index:home"/>
     <file name="u6904-4.png" crc="287351194" ref="index"/>
     <file name="u7052-4.png" crc="3842955238" ref="index"/>
     <file name="new-orleans-skyline-black-silhouette.svg" crc="3823254577" seo="true" ref="index">
@@ -100,48 +88,187 @@
       <caption webpage="index" alt=""/>
     </file>
     <file name="miami-skyline-black-silhouette_poster_.png" crc="222372470" ref="index"/>
-    <file name="pageant 01a.svg" crc="472448184" ref="index"/>
-    <file name="pageant 01a_poster_u7341.png" crc="3824655021" ref="index"/>
-    <file name="pageant 02.svg" crc="370102199" ref="index"/>
-    <file name="pageant 02_poster_u7333.png" crc="312047198" ref="index"/>
-    <file name="pageant 03.svg" crc="282740773" ref="index"/>
-    <file name="pageant 03_poster_u7325.png" crc="4204819957" ref="index"/>
-    <file name="pageant 04.svg" crc="397919599" ref="index"/>
-    <file name="pageant 04_poster_u7349.png" crc="4200683547" ref="index"/>
-    <file name="pageant 05.svg" crc="194310540" ref="index"/>
-    <file name="pageant 05_poster_u7360.png" crc="202225757" ref="index"/>
-    <file name="pageant 06.svg" crc="269663966" ref="index"/>
-    <file name="pageant 06_poster_u7371.png" crc="68974905" ref="index"/>
-    <file name="pageant 07.svg" crc="4114814005" ref="index"/>
-    <file name="pageant 07_poster_u7382.png" crc="3977477982" ref="index"/>
-    <file name="pageant 08.svg" crc="205577198" ref="index"/>
-    <file name="pageant 08_poster_u7393.png" crc="4196526067" ref="index"/>
-    <file name="pageant 09a.svg" crc="79833666" ref="index"/>
-    <file name="pageant 09a_poster_u7412.png" crc="4196828705" ref="index"/>
-    <file name="pageant 10a.svg" crc="4207860090" ref="index"/>
-    <file name="pageant 10a_poster_u7423.png" crc="409173253" ref="index"/>
-    <file name="pageant 11.svg" crc="87983492" ref="index"/>
-    <file name="pageant 11_poster_u7434.png" crc="130761403" ref="index"/>
-    <file name="pageant 12.svg" crc="3912510186" ref="index"/>
-    <file name="pageant 12_poster_u7445.png" crc="3915428074" ref="index"/>
-    <file name="pageant 13a.svg" crc="3784805250" ref="index"/>
-    <file name="pageant 13a_poster_u7464.png" crc="6961521" ref="index"/>
-    <file name="pageant 14.svg" crc="4073018384" ref="index"/>
-    <file name="pageant 14_poster_u7475.png" crc="4241109349" ref="index"/>
-    <file name="pageant 15.svg" crc="206065931" ref="index"/>
-    <file name="pageant 15_poster_u7486.png" crc="239549454" ref="index"/>
-    <file name="pageant 16.svg" crc="44026506" ref="index"/>
-    <file name="pageant 16_poster_u7497.png" crc="12509521" ref="index"/>
+    <file name="pageant 01a.svg" crc="4033035125" ref="index:home"/>
+    <file name="pageant 02.svg" crc="437401739" ref="index:home"/>
+    <file name="pageant 03.svg" crc="350467939" ref="index:home"/>
+    <file name="pageant 04.svg" crc="133124838" ref="index:home"/>
+    <file name="pageant 05.svg" crc="3827623378" ref="index:home"/>
+    <file name="pageant 06.svg" crc="4032922113" ref="index:home"/>
+    <file name="pageant 07.svg" crc="378868276" ref="index:home"/>
+    <file name="pageant 08.svg" crc="451493935" ref="index:home"/>
+    <file name="pageant 09a.svg" crc="3938807590" ref="index:home"/>
+    <file name="pageant 10a.svg" crc="3819644294" ref="index:home"/>
+    <file name="pageant 11.svg" crc="4266590537" ref="index:home"/>
+    <file name="pageant 12.svg" crc="190196535" ref="index:home"/>
+    <file name="pageant 13a.svg" crc="3786691423" ref="index:home"/>
+    <file name="pageant 14.svg" crc="3924741142" ref="index:home"/>
+    <file name="pageant 15.svg" crc="8732023" ref="index:home"/>
+    <file name="pageant 16.svg" crc="243382521" ref="index:home"/>
     <file name="u7248-4.png" crc="87888731" ref="index"/>
     <file name="u7259-4.png" crc="3905585593" ref="index"/>
     <file name="tiaras.svg" crc="4113285011" ref="index"/>
     <file name="tiaras_poster_u7622.png" crc="3833489747" ref="index"/>
     <file name="u7630-4.png" crc="3996156274" ref="index"/>
     <file name="u7647-4.png" crc="202527038" ref="index"/>
-    <file name="u7662.png" crc="196048862" ref="index"/>
-    <file name="u7662-r.png" crc="4074241295" ref="index"/>
+    <file name="u7662.png" crc="4074241295" ref="index"/>
+    <file name="u7662-r.png" crc="394725659" ref="index"/>
     <file name="u7633-4.png" crc="4056822890" ref="index"/>
+    <file name="pageant 01a_poster_u31942.png" crc="4173348029" ref="index:home"/>
+    <file name="pageant 02_poster_u31950.png" crc="109242720" ref="index:home"/>
+    <file name="pageant 03_poster_u31958.png" crc="390723419" ref="index:home"/>
+    <file name="pageant 04_poster_u31934.png" crc="3878105783" ref="index:home"/>
+    <file name="pageant 05_poster_u31926.png" crc="3961779055" ref="index:home"/>
+    <file name="pageant 06_poster_u31918.png" crc="4034371655" ref="index:home"/>
+    <file name="pageant 07_poster_u31910.png" crc="3759931221" ref="index:home"/>
+    <file name="pageant 08_poster_u31902.png" crc="4291552446" ref="index:home"/>
+    <file name="pageant 09a_poster_u31894.png" crc="297339755" ref="index:home"/>
+    <file name="pageant 10a_poster_u31886.png" crc="254624293" ref="index:home"/>
+    <file name="pageant 11_poster_u31878.png" crc="4135606780" ref="index:home"/>
+    <file name="pageant 12_poster_u31870.png" crc="4106523709" ref="index:home"/>
+    <file name="pageant 13a_poster_u31862.png" crc="63685193" ref="index:home"/>
+    <file name="pageant 14_poster_u31854.png" crc="4180349832" ref="index:home"/>
+    <file name="pageant 15_poster_u31846.png" crc="4283976417" ref="index:home"/>
+    <file name="pageant 16_poster_u31838.png" crc="3883405004" ref="index:home"/>
+    <file name="a635be6fbbef8c3f4b9f2add6ac9acc5.png" crc="4218470767" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="green-315275_960_720-u23896-fr.png" crc="4091273287" ref="home"/>
+    <file name="142685691_304579308589d0f7e2cc8a.jpg" crc="4174545596" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="u30008-4.png" crc="300660309" ref="home"/>
+    <file name="pageant 01a_.svg" crc="4277269599" ref="home"/>
+    <file name="pageant 01a__poster_u31830.png" crc="4228848867" ref="home"/>
+    <file name="pageant 02_.svg" crc="3935164133" ref="home"/>
+    <file name="pageant 02__poster_u31822.png" crc="324950291" ref="home"/>
+    <file name="pageant 03_.svg" crc="3990762360" ref="home"/>
+    <file name="pageant 03__poster_u31814.png" crc="339723088" ref="home"/>
+    <file name="pageant 04_.svg" crc="400217027" ref="home"/>
+    <file name="pageant 04__poster_u31806.png" crc="3996041890" ref="home"/>
+    <file name="pageant 05_.svg" crc="342412686" ref="home"/>
+    <file name="pageant 05__poster_u31798.png" crc="306714977" ref="home"/>
+    <file name="pageant 06_.svg" crc="4064166014" ref="home"/>
+    <file name="pageant 06__poster_u31790.png" crc="176704806" ref="home"/>
+    <file name="pageant 07_.svg" crc="267187775" ref="home"/>
+    <file name="pageant 07__poster_u31782.png" crc="463644738" ref="home"/>
+    <file name="pageant 08_.svg" crc="348967015" ref="home"/>
+    <file name="pageant 08__poster_u31774.png" crc="33251742" ref="home"/>
+    <file name="pageant 09a_.svg" crc="4150806886" ref="home"/>
+    <file name="pageant 09a__poster_u31766.png" crc="90847255" ref="home"/>
+    <file name="pageant 10a_.svg" crc="4216606950" ref="home"/>
+    <file name="pageant 10a__poster_u31758.png" crc="429529330" ref="home"/>
+    <file name="pageant 11_.svg" crc="4007755449" ref="home"/>
+    <file name="pageant 11__poster_u31750.png" crc="3803359500" ref="home"/>
+    <file name="pageant 12_.svg" crc="3815790253" ref="home"/>
+    <file name="pageant 12__poster_u31742.png" crc="4016047076" ref="home"/>
+    <file name="pageant 13a_.svg" crc="98773268" ref="home"/>
+    <file name="pageant 13a__poster_u31734.png" crc="3897914617" ref="home"/>
+    <file name="pageant 14_.svg" crc="4016090728" ref="home"/>
+    <file name="pageant 14__poster_u31726.png" crc="284944121" ref="home"/>
+    <file name="pageant 15_.svg" crc="4138600975" ref="home"/>
+    <file name="pageant 15__poster_u31718.png" crc="533294813" ref="home"/>
+    <file name="pageant 16_.svg" crc="4003641568" ref="home"/>
+    <file name="pageant 16__poster_u31710.png" crc="439079851" ref="home"/>
+    <file name="abstract-blur-soft-green-1920x1080-u23027-fr.png" crc="232225722" ref="home"/>
+    <file name="u33931-4.png" crc="4095704647" ref="home"/>
+    <file name="https--2f-2fcdnevbuccom-2fimages-2f27224901-2f1880592640-2f1-2foriginal.jpg" crc="4170663399" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="wpid-party-crowd-background-vector-1170x1170.jpg" crc="3787365982" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="blurred background p2 2-u23367-fr.png" crc="3842596536" ref="home"/>
+    <file name="u33870-4.png" crc="3972958840" ref="home"/>
+    <file name="vector_rose_flower_logo_inspiration_idea.png" crc="4122263522" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="baee350dbd7b4c379af0c20cff8599f1.png" crc="531688039" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="2000px-lan_airlines_logosvg.png" crc="191088506" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="ge_master_logo copy.png" crc="755405" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="cropped-web-design-ledger-512x512-pixel.png" crc="44404833" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="down-east-fresh-logo-original-transparent-background.png" crc="464189576" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="dddf8045810553690edb92331c66d39a.png" crc="4204869928" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="amahi-logo-a36008f915e1ad5efaaf8e468ac614d888ece91aca11db69666e2055f1307964.png" crc="4042845257" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="envato.png" crc="4276180317" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="otlogo_rationalization-r1d-011.png" crc="4170356226" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="logo.png" crc="4270693582" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="logo5.png" crc="3982226702" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="featured-image-2.png" crc="4193963814" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="logo_google_best_practices_192px_clr.png" crc="3768281414" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="cs_logo_reversed.png" crc="514076078" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="sample_logo_american_airlines_1968_2013.png" crc="421434377" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="hoophouses-4-health.png" crc="4144892934" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="qualia_logo_medium.png" crc="413224688" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="city-building-silhouette1-u23899-fr.png" crc="210264032" ref="home"/>
+    <file name="u33875-4.png" crc="532451620" ref="home"/>
+    <file name="u34354-4.png" crc="526447406" ref="home"/>
+    <file name="u25087-4.png" crc="70348189" ref="home"/>
+    <file name="u25193-4.png" crc="289294226" ref="home"/>
+    <file name="yellow-blurred-background-u22715-fr.png" crc="281403761" ref="home"/>
+    <file name="u24395-6.png" crc="3887331418" ref="home"/>
+    <file name="8f9e5d828571c4ff4cbbdf9ae399449b.png" crc="421504881" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="80cfc395aef8e4cf8fab13f5468e546e.png" crc="490224805" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="ariel-silhouette-disney-princess-37757451-313-500.png" crc="4005947338" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="be0097fe5ce5dd70ca72a1f3912ee0f4-.png" crc="119111044" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="cb1ebd99a3522d1916a2fddef1f0701f.png" crc="3802203759" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="d4b311629fd1c80b1628769c8a68732d-.png" crc="350536159" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="u24405-6.png" crc="109732086" ref="home"/>
+    <file name="u36611-4.png" crc="96191906" ref="home"/>
+    <file name="princess-silhouette.png" crc="8625783" seo="true" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
+    <file name="u36606-4.png" crc="3767509118" ref="home"/>
+    <file name="u36623-4.png" crc="53157125" ref="home"/>
+    <file name="yellow-blurred-background.jpg" crc="481201013" ref="home">
+      <caption webpage="home" alt=""/>
+    </file>
   </folder>
-  <file name="home.html" crc="169492718" seo="true" mt="1491425841323" redirect="true"/>
-  <file name="index.html" crc="102443613" seo="true" mt="1491436478655" redirect="true"/>
+  <file name="index.html" crc="3875180968" seo="true" mt="1491643428939" redirect="true"/>
+  <file name="home.html" crc="3880528978" seo="true" mt="1491647217503" redirect="true"/>
 </manifest>

@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>http://pageant.com/index.html</loc>
-    <lastmod>2017-04-06</lastmod>
+    <lastmod>2017-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
@@ -20,14 +20,35 @@
   </url>
   <url>
     <loc>http://pageant.com/home.html</loc>
-    <lastmod>2017-04-06</lastmod>
+    <lastmod>2017-04-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <image:image>
-      <image:loc>http://pageant.com/images/kuala-lumpur-skyline-black-silhouette.svg</image:loc>
+      <image:loc>http://pageant.com/images/pageant-gold.svg</image:loc>
     </image:image>
     <image:image>
-      <image:loc>http://pageant.com/images/model.svg</image:loc>
+      <image:loc>http://pageant.com/images/a635be6fbbef8c3f4b9f2add6ac9acc5.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/8f9e5d828571c4ff4cbbdf9ae399449b.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/80cfc395aef8e4cf8fab13f5468e546e.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/ariel-silhouette-disney-princess-37757451-313-500.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/be0097fe5ce5dd70ca72a1f3912ee0f4-.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/cb1ebd99a3522d1916a2fddef1f0701f.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/d4b311629fd1c80b1628769c8a68732d-.png</image:loc>
+    </image:image>
+    <image:image>
+      <image:loc>http://pageant.com/images/princess-silhouette.png</image:loc>
     </image:image>
   </url>
 </urlset>
